@@ -109,8 +109,8 @@ body {
 <table width="100%"  border="0" align="center" cellpadding="0" cellspacing="0"  id="menutd">
   <tr>
     <td  width="14"   class="Menu_OutTd"  id="menutd1">&nbsp;</td>
-    <td  width="70" nowrap id="menubar_4"   class="Menu_OutTd">|<a href="yhgl.jsp" target="main"> 用户管理</a></td>
-    <td  width="70" nowrap id="menubar_5"   class="Menu_OutTd">|<a href="gsgl.jsp" target="main"> 公司管理</a></td>
+    <td  width="70" nowrap id="menubar_4"   class="Menu_OutTd">|<a href="${pageContext.request.contextPath}/Homemaking/usersvl?currentPage=1" target="main"> 用户管理</a></td>
+    <td  width="70" nowrap id="menubar_5"   class="Menu_OutTd">|<a href="${pageContext.request.contextPath}/Homemaking/companysvl?currentPage=1" target="main"> 公司管理</a></td>
 
     <td width="70" nowrap class="Menu_OutTd">|<a href="${pageContext.request.contextPath}/Homemaking/rechargeServlet?reqType=czgl" target="main"> 充值管理</a></td>
     <td width="70" nowrap class="Menu_OutTd">|<a href="${pageContext.request.contextPath}/Homemaking/rechargeServlet?reqType=xfcx" target="main"> 消费查询</a></td>
